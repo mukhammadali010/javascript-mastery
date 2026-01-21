@@ -66,3 +66,17 @@
 
 // console.log(totalValue , 'test');
 // bu yerda 18 chiqadi chunki 3 bu initialValue hisoblanadi yani acc = 3 bo'ladi shu qiymatga arrayning barcha qiymatini qo'shib ketadi
+
+// ...rest -- bu array ni destructure qilish da ishlatiladi.
+
+// let a , rest;
+// const arr1 = [1,2,3,4,5];
+
+// [a, ...rest] = arr1;
+
+// console.log(a ,rest  ,'');
+
+// bu yerda a arr1 ni 0 indexdagi qiymati rest esa qolgan qiymatlarini [] array qilib o'ziga yig'ib oladi.
+
+// slice -- array elementlarini qirqib beradi 
+// array.slice(start , end);
