@@ -1,12 +1,76 @@
 //Day 1
 // array  barcha tipdagi malumot lari o'zida saqlay oladi
 
-// const numbers = [1, 2, 3, 4, 5, 6, 7];
+ const numbers = [1, 2, 3, 4, 5, 6, 7];
 
 
 // exercises 
 
-// let fruits = ["apple", "mango", "banana", "pineapple", "ananas"];
+let fruits = ["apple", "mang", "ban", "pineapple", "apple", "ananas"];
+
+// let total = numbers.concat(fruits);
+// console.log(total);
+// total.copyWithin(0, 7);
+// let total = fruits.entries();
+
+// for (const element of total) {
+//     console.log(element);
+       
+// }
+
+// let total =  fruits.every((value)=>value.length > 4);
+
+// console.log(total, 'test');
+
+// let total =  fruits.fill('test');
+// let total =  fruits.filter((value)=>value.length > 4);
+// let total =  fruits.find((value)=>value.length < 5);
+// let total =  fruits.findIndex((value)=>value === 'mang');
+// let total =  fruits.flat()
+// let total =  fruits.flatMap((value)=>value);
+// let total =  fruits.forEach((value , index , array)=>{
+//     return console.log(array ,'test');
+// })
+
+//  let total =  fruits.includes('apple');
+//  let total =  fruits.indexOf('mang' , 1);
+//  let total =  fruits.join('*')
+//  let total =  fruits.keys();
+//  for (const key of total) {
+//         console.log(key);
+//  }
+
+//  let total =  fruits.lastIndexOf('apple');
+//  let total =  fruits.map((value)=>value+'t');
+//  let total =  fruits.;
+
+//  console.log(total, 'test');
+
+
+ let users = [
+    {
+        name:'Test1',
+        age:23
+    },
+    {
+        name:'Test2',
+        age:25
+    },
+    {
+        name:'Test3',
+        age:27
+    },
+    {
+        name:'Test4',
+        age:29
+    },
+ ]
+
+
+
+delete users[2];
+  
+console.log(users[1]['name']);
 
 // console.log(fruits[0], 'first array element');
 // console.log(fruits[fruits.length - 1], 'last array element');
@@ -80,3 +144,8 @@
 
 // slice -- array elementlarini qirqib beradi 
 // array.slice(start , end);
+
+
+// ==============================
+// Day 3 — Objects
+
